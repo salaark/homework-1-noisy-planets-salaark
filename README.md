@@ -6,7 +6,7 @@
 - Salaar Kohari (PennKey: salaar)
 
 ## Planet Shader
-The shader uses a Blinn-Phong model for specular lighting, with higher intensity on the water than on land. A 4D Simplex noise function (based on 3D position and time) clamped to prevent valleys and combined with Fractal Brownian Motion creates the land heightmap. Another 4D Simplex noise function is used to create color highlights in the water. Subtle land highlights are height-based. Distance fog occurs on the horizon of the planet, regardless of viewing angle. The user can tweak sunlight intensity and fog color.
+The shader uses a Blinn-Phong model for specular lighting, with higher intensity on the water than on land. A 4D Simplex noise function (based on 3D position and time) clamped to prevent valleys and combined with Fractal Brownian Motion creates the land heightmap. Another 4D Simplex noise function is used to create color highlights in the water. Subtle land highlights are height-based. Distance fog occurs on the horizon of the planet, regardless of viewing angle. The user can tweak sunlight intensity and fog color. Wave height is also based on a trigonometric function.
 
 ![](planet.png)
 ![](planet2.png)
